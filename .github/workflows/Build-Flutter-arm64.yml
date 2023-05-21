@@ -40,17 +40,17 @@ jobs:
           version: "latest"
           file: "linux_release_arm64.zip"
           target: "linux_release_arm64.zip"
-    - name: Fetch zhzhzhy/Build_Flutter_Engine_ARM64 Github Debug Release zip
+    - name: Fetch Breeze-1/build_flutter_engine Github Debug Release zip
       uses: dsaltares/fetch-gh-release-asset@0.0.5
       with:
-          repo: "zhzhzhy/Build_Flutter_Engine_ARM64"
+          repo: "Breeze-1/build_flutter_engine"
           version: "latest"
           file: "linux_debug_arm64.zip"
           target: "linux_debug_arm64.zip"
-    - name: Fetch zhzhzhy/Build_Dart_ARM_SDK Github Release Asset
+    - name: Fetch Breeze-1/Build_Dart_ARM_SDK Github Release Asset
       uses: dsaltares/fetch-gh-release-asset@0.0.5
       with:
-          repo: "zhzhzhy/Build_Dart_ARM_SDK"
+          repo: "Breeze-1/Build_Dart_ARM_SDK"
           version: "latest"
           file: "dart-sdk-linux-arm64.zip"
           target: "dart-sdk-linux-arm64.zip"
